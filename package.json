@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dk": "drizzle-kit",
+    "studio": "drizzle-kit studio --port 9090 --verbose",
+    "gen:migrations": "drizzle-kit  generate:sqlite",
+    "apply:migrations": "pnpx tsx src/db/migrate.ts",
+    "migrate": "pnpm run gen:migrations && pnpm run apply:migrations"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.18.1",
