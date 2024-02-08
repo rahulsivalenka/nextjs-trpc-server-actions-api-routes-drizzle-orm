@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-trpc-server-actions-api-routes",
+  "name": "nextjs-trpc-server-actions-api-routes-drizzle-orm",
   "version": "0.1.0",
   "private": true,
   "scripts": {
