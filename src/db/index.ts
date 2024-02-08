@@ -1,1 +1,1 @@
-export * as todosDto from './todos'
+export * as todosDao from './todos'

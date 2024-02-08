@@ -8,6 +8,13 @@
       "when": 1707298630955,
       "tag": "0000_friendly_makkari",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1707373967870,
+      "tag": "0001_high_paladin",
+      "breakpoints": true
     }
   ]
 }
